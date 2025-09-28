@@ -1,7 +1,6 @@
 #pragma once
 #include <KRunner/AbstractRunner>
-#include <KLocalizedString>
-#include <QObject>
+#include <QStringList>
 
 class PassRunner : public KRunner::AbstractRunner
 {

@@ -16,10 +16,5 @@
       "example": "pass github",
       "description": "Search for a password entry"
     }
-  ],
-
-  "X-Plasma-Runner-TriggerWords": [
-    "pass",
-    "pw"
   ]
 }

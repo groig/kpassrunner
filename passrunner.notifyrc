@@ -1,9 +1,10 @@
 [Global]
-Name=krunner
 IconName=dialog-password
-DesktopEntry=krunner
+Name=Pass Runner
+Comment=Password store integration for KRunner
+DesktopEntry=org.kde.krunner
 
-[Event/password_copied]
+[Event/passwordCopied]
 Name=Password Copied
 Comment=Password has been copied to clipboard
 Action=Popup

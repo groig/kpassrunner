@@ -11,11 +11,16 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 
 find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS I18n Runner Notifications)
 
-kcoreaddons_add_plugin(passrunner SOURCES passrunner.cpp INSTALL_NAMESPACE "kf6/krunner")
+kcoreaddons_add_plugin(passrunner
+    SOURCES passrunner.cpp
+    INSTALL_NAMESPACE "kf6/krunner"
+)
+
 target_link_libraries(passrunner
     KF6::I18n
     KF6::Runner
     KF6::Notifications
 )
-install(FILES krunner.notifyrc
-        DESTINATION ${KDE_INSTALL_DATADIR}/knotifications6)
+
+install(FILES passrunner.notifyrc
+        DESTINATION ${KDE_INSTALL_KNOTIFYRCDIR})
