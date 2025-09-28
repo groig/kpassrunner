@@ -1,0 +1,10 @@
+[Global]
+Name=krunner
+IconName=dialog-password
+DesktopEntry=krunner
+
+[Event/password_copied]
+Name=Password Copied
+Comment=Password has been copied to clipboard
+Action=Popup
+Urgency=Low

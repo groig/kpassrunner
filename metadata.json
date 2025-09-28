@@ -1,0 +1,25 @@
+{
+  "KPlugin": {
+    "Name": "Pass Runner",
+    "Description": "Search entries in password-store",
+    "Icon": "dialog-password",
+    "Authors": [
+      { "Name": "Roig", "Email": "groig@protonmail.com" }
+    ],
+    "Version": "0.1",
+    "License": "MIT"
+  },
+  "X-KDE-PluginInfo-Category": "Utilities",
+
+  "X-Plasma-Runner-Syntaxes": [
+    {
+      "example": "pass github",
+      "description": "Search for a password entry"
+    }
+  ],
+
+  "X-Plasma-Runner-TriggerWords": [
+    "pass",
+    "pw"
+  ]
+}
